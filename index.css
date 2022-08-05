@@ -1,26 +1,26 @@
-body {
-    font-family: Verdana;
-    </style>;
-    font-size: 18px;
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
     margin: 0;
-    background-color: rgb(80, 3, 18);
-    
 }
 
-a {
-    text-decoration: underline;
-    color: white;
+body {
+    background-image: url(https://i.pinimg.com/originals/20/bd/bf/20bdbf446a58eaa2ffd08f162959fc58.jpg);
+    background-size:cover;
+    height: 400px;
     
+    
+   
+
 }
 
 header {
     display: flex;
-    background-color: rgb(29, 19, 19);
     min-height: 70px;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    box-shadow: 0px 0.2px 0px 0px; color: aqua;
+   
 }
 
 
@@ -32,5 +32,34 @@ header {
 nav a {
     font-weight: 900;
     padding-right: 90px;
+    color:rgb(44, 1, 1)
     
-};
+}
+
+
+
+
+.section-1 {
+    margin-top: 200px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    gap: 50px;
+    height: 60vh;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+p {
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.2em;
+}
+
